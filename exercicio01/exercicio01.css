@@ -46,6 +46,11 @@ button{
     background: linear-gradient(135deg, rgba(69,135,209,1) 0%, rgba(115,90,185,1) 59%);
     border: none;
     font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(64, 50, 102)
 }
 
 .input-div{
@@ -64,4 +69,5 @@ span{
 
 .tag-text{
     margin-top: 1rem;
+    text-align: center;
 }
